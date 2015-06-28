@@ -28,27 +28,12 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
+import "../pages/helper/globs.js" as Globs
 
 CoverBackground {
-    Label {
-        id: label
-        anchors.centerIn: parent
-        text: qsTr("My Cover")
-    }
-
-    CoverActionList {
-        id: coverAction
-
-        CoverAction {
-            iconSource: "image://theme/icon-cover-next"
-        }
-
-        CoverAction {
-            iconSource: "image://theme/icon-cover-pause"
-        }
+    CoverPlaceholder {
+        text: Globs.gibAktTitel()
     }
 }
-
-

@@ -1,11 +1,11 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
 import "helper/globs.js" as Globs
 
 Page {
     id: kurve
     allowedOrientations: Orientation.All
-    onFocusChanged: canvas1.requestPaint()
+    onFocusChanged: canvas1.requestPaint()    
 
     SilicaFlickable {
         anchors.fill: parent
@@ -133,6 +133,7 @@ Page {
                 property real aktX
                 property real aktY
                 property var werteElement
+                property int anzWerte
                 property real divAnzahl
                 property real divWert
                 property bool farbWechsel: false
@@ -157,39 +158,40 @@ Page {
                     }
                     ctx.stroke()
 
+                    anzWerte = werteListe.count
 
                     ctx.strokeStyle = "darkMagenta"
                     ctx.lineWidth = 2
                     ctx.beginPath()
-                    if ((werteListe.count - 1) > 0) {
-                        divAnzahl = canvas1.width / (werteListe.count - 1)
+                    if ((anzWerte - 1) > 0) {
+                        divAnzahl = canvas1.width / (anzWerte - 1)
                     } else {
                         divAnzahl = 1
                     }
 
                     divWert = canvas1.height / 150
-                    werteElement = werteListe.get(0)
-                    ctx.moveTo(aktX, werteElement.sys * divWert)
-                    for (var i = 1; i < werteListe.count; i++) {
+                    werteElement = werteListe.get(anzWerte - 1)
+                    ctx.moveTo(aktX,canvas1.height - (werteElement.sys - 50) * divWert)
+                    for (var i = anzWerte - 2; i >= 0; i--) {
                         aktX = aktX + 1
                         werteElement = werteListe.get(i)
                         ctx.lineTo((aktX * divAnzahl),
-                                   (werteElement.sys * divWert))
+                                   (canvas1.height - (werteElement.sys - 50) * divWert))
                     }
 
                     ctx.stroke()
 
-                    werteElement = werteListe.get(0)
+                    werteElement = werteListe.get(anzWerte - 1)
                     aktX = 0
                     ctx.strokeStyle = "darkCyan"
                     ctx.lineWidth = 2
                     ctx.beginPath()
-                    ctx.moveTo(aktX, werteElement.dia * divWert)
-                    for (var i = 1; i < werteListe.count; i++) {
+                    ctx.moveTo(aktX,canvas1.height - (werteElement.dia - 50) * divWert)
+                    for (var i = anzWerte - 2; i >= 0; i--) {
                         aktX = aktX + 1
                         werteElement = werteListe.get(i)
                         ctx.lineTo((aktX * divAnzahl),
-                                   (werteElement.dia * divWert))
+                                   (canvas1.height - (werteElement.dia - 50) * divWert))
                     }
 
                     ctx.stroke()
@@ -223,7 +225,7 @@ Page {
                 horizontalAlignment: Text.AlignRight
                 text: "Sys"
                 font.pixelSize: Theme.fontSizeSmall
-                color: "darkCyan"
+                color: "darkMagenta"
             }
 
             Label {
@@ -235,7 +237,7 @@ Page {
                 horizontalAlignment: Text.AlignLeft
                 text: "Dia"
                 font.pixelSize: Theme.fontSizeSmall
-                color: "darkMagenta"
+                color: "darkCyan"
             }
 
         }

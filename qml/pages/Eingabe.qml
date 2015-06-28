@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
 import "helper/globs.js" as Globs
 
@@ -111,6 +111,8 @@ Dialog {
                                     selectAll()
                 placeholderText: qsTr("Systolic")
                 font.pixelSize: Globs.gibThemeFontgroesse(aktFontstufe)
+                EnterKey.enabled: text.length > 0
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: diastolic.focus = true
             }
 
@@ -123,6 +125,8 @@ Dialog {
                                     selectAll()
                 placeholderText: qsTr("Diastolic")
                 font.pixelSize: Globs.gibThemeFontgroesse(aktFontstufe)
+                EnterKey.enabled: text.length > 0
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: bemerkung.focus = true
             }
             TextField {
@@ -133,6 +137,8 @@ Dialog {
                 onFocusChanged: if (focus == true)
                                     selectAll()
                 placeholderText: qsTr("Comment")
+                EnterKey.enabled: text.length > 0
+                EnterKey.iconSource: "image://theme/icon-m-enter-next"
                 EnterKey.onClicked: privat.focus = true
             }
             TextSwitch {

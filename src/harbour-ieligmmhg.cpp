@@ -28,10 +28,9 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#ifdef QT_QML_DEBUG
+//#ifdef QT_QML_DEBUG
 #include <QtQuick>
-#endif
-#include <QtQml>
+//#endif
 
 #include <sailfishapp.h>
 #include "fileio.h"
@@ -48,9 +47,25 @@ int main(int argc, char *argv[])
     //
     // To display the view, call "show()" (will show fullscreen on device).
 
+    //return SailfishApp::main(argc, argv);
+
+
+    QGuiApplication *app = SailfishApp::application(argc, argv);
+
+    app->setApplicationVersion("0.1");
+    QQuickView *view = SailfishApp::createView();
+
+    view->setSource(SailfishApp::pathTo("qml/harbour-ieligmmhg.qml"));
+    //QObject *object = view->rootObject();
+
     //hw
     FileIO dateiio;
 
-    return SailfishApp::main(argc, argv);
+    view->engine()->rootContext()->setContextProperty("_dateiio", &dateiio);
+
+    view->show();
+
+
+    return app->exec();
 }
 

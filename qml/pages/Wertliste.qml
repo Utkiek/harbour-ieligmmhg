@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
 import "helper/globs.js" as Globs
 
@@ -22,16 +22,18 @@ Page {
                                           })
             }
             MenuItem {
-                text: qsTr("Export or Import")
+                text: qsTr("Export")
                 onClicked: pageStack.push(Qt.resolvedUrl("Export.qml"), {
                                               werteListe: werteListe
                                           })
+                visible: werteListe.count > 0
             }
             MenuItem {
                 text: qsTr("Chart")
                 onClicked: pageStack.push(Qt.resolvedUrl("Kurve.qml"), {
                                               werteListe: werteListe
                                           })
+                visible: werteListe.count > 1
             }
             MenuItem {
                 text: qsTr("New value")
@@ -58,15 +60,17 @@ Page {
             }
             model: werteListe
             spacing: 0
+            //update:
 
             TextArea {
+                anchors.fill: parent
                 horizontalAlignment: TextEdit.AlignHCenter
                 font.pixelSize: Theme.fontSizeHuge
                 color: Theme.highlightColor
                 font.family: Theme.fontFamily
                 readOnly: true
                 wrapMode: TextEdit.Wrap
-                text: qsTr("Add your data")
+                text: qsTr("Add your data.\nFor chart or export you need 2 (or more) values.")
                 visible: werteListe.count == 0
                 onClicked: pageStack.push(Qt.resolvedUrl("Eingabe.qml"))
             }

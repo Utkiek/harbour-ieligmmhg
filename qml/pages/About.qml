@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
 
 Page {
@@ -40,7 +40,7 @@ Page {
             }
             readOnly: true
             wrapMode: TextEdit.Wrap
-            text: qsTr("Export or Import\nYou can export or import a CSV-File. Path and filename is hardcoded to\n/home/nemo/mmHg.csv")
+            text: qsTr("Export\nYou can export in a CSV-File. Path and filename is hardcoded to\n") + StandardPaths.documents + qsTr("/mmHg.csv")
         }
 
         TextArea {
@@ -77,7 +77,7 @@ Page {
             }
             readOnly: true
             wrapMode: TextEdit.Wrap
-            text: qsTr("Open source\nThis app is pure QML.\nGithub: https://github.com/Utkiek/IeligmmHg\nLicense: GPLv3")
+            text: qsTr("Open source\nThis app is QML and a litte C++.\nGithub: https://github.com/Utkiek/IeligmmHg\nLicense: GPLv3")
         }
     }
 }
