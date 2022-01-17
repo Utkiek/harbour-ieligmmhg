@@ -1,0 +1,28 @@
+# Rename this file as harbour-ieligmmhg.changes to include changelog
+# entries in your RPM file.
+#
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* 0.1-1
+- first version
+
+* 0.2-2
+- fix a sorting error
+- import data (e.g. for use on phone and tablet). Import added new values.
+
+* 0.4-1
+- recompiling for 64 bit
+
+* 0.5
+- pepare for Sailjail (with migration)
+- invoking the Edit command on an existing data record gives no apparent reponse
+# B. Turning the phone into landscape mode and trying to enter new data, there's no response to the horizontal numerical on-sreen keyboard - and the on-screen keyboard  seems to get stuck in numeric mode for all apps.
+- graph: utilize the lenght of the screen in landscape mode.
+- skip intro page w/o click on show not again..
+
+
