@@ -13,7 +13,7 @@ Name:       harbour-ieligmmhg
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Save your bloodpressure values
-Version:    0.5
+Version:    0.5.2
 Release:    1
 Group:      Qt/Qt
 License:    LICENSE
