@@ -6,7 +6,8 @@
     <message>
         <source>Senior
 This app address the demands of elderly jolla users. If you like to talk about this demands send me a mail: utkiek@public-files.de or lets drink a beer here in Bremen.</source>
-        <translation>Ez az alkalmazás az idősebb jolla felhasználók igényeit célozza. Ha szeretnél ezekről az igényekről beszélni, küldj egy e-mail-t az utkiek@public-files.de címre, vagy megihatunk egy sört itt Brémában.</translation>
+        <translation>Idősek
+            Ez az alkalmazás az idősebb jolla felhasználók igényeit célozza. Ha szeretnél ezekről az igényekről beszélni, küldj egy e-mail-t az utkiek@public-files.de címre, vagy megihatunk egy sört itt Brémában.</translation>
     </message>
     <message>
         <source>Privacy
@@ -38,12 +39,14 @@ You can export in a CSV-File. Path and filename is hardcoded to
     <message>
         <source>Ielig: mmHg
 Save your blood pressure values or other data.</source>
-        <translation></translation>
+        <translation>Ielig: mmHg
+            Mentsd el a vérnyomás-értékeidet, vagy más adatot.</translation>
     </message>
     <message>
         <source>Settings
 Relabel the data fields for your needs and set a date of expiry. Or configure the graph.</source>
-        <translation></translation>
+        <translation>Beállítások
+            Címkézd újra a rovatokat a szüségleteid szerint, és állíts be lejárati dátumot. Esetleg konfiguráld a grafikont.</translation>
     </message>
 </context>
 <context>
@@ -70,7 +73,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Valid until</source>
-        <translation></translation>
+        <translation>Érvényes eddig</translation>
     </message>
 </context>
 <context>
@@ -105,63 +108,63 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Global settings</source>
-        <translation></translation>
+        <translation>Általános beállítások</translation>
     </message>
     <message>
         <source>Field 1 label</source>
-        <translation></translation>
+        <translation>1. rovat címkéje</translation>
     </message>
     <message>
         <source>Field 2 label</source>
-        <translation></translation>
+        <translation>2. rovat címkéje</translation>
     </message>
     <message>
         <source>Field 3 label</source>
-        <translation></translation>
+        <translation>3. rovat címkéje</translation>
     </message>
     <message>
         <source>Field 4 label</source>
-        <translation></translation>
+        <translation>4.rovat címkéje</translation>
     </message>
     <message>
         <source>Graph of value 1+2</source>
-        <translation></translation>
+        <translation>1+2 érték grafikonja</translation>
     </message>
     <message>
         <source>Min. value</source>
-        <translation></translation>
+        <translation>Min. érték</translation>
     </message>
     <message>
         <source>Max. value</source>
-        <translation></translation>
+        <translation>Max. érték</translation>
     </message>
     <message>
         <source>Unit</source>
-        <translation></translation>
+        <translation>Egység</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation></translation>
+        <translation>Adatbázis</translation>
     </message>
     <message>
         <source>Export private data</source>
-        <translation></translation>
+        <translation>Privát adatok exportálása</translation>
     </message>
     <message>
         <source>Valid for days (0=indefinite)</source>
-        <translation></translation>
+        <translation>Ennyi napig érvényes (0=határozatlan ideig)</translation>
     </message>
     <message>
         <source>Reset all settings</source>
-        <translation></translation>
+        <translation>Az összes beállítás visszaállítása</translation>
     </message>
     <message>
         <source>Reindex all values</source>
-        <translation></translation>
+        <translation>Az összes érték újraindexelése</translation>
     </message>
     <message>
         <source>Delete all values</source>
-        <translation></translation>
+        <translation>Az összes érték törlése</translation>
     </message>
 </context>
 <context>
@@ -192,15 +195,15 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Sys</source>
-        <translation></translation>
+        <translation>Sys</translation>
     </message>
     <message>
         <source>Dia</source>
-        <translation></translation>
+        <translation>Dia</translation>
     </message>
     <message>
         <source>Pulse</source>
-        <translation></translation>
+        <translation>Pulzus</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -212,23 +215,23 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Theme</source>
-        <translation></translation>
+        <translation>Téma</translation>
     </message>
     <message>
         <source>Valid to</source>
-        <translation></translation>
+        <translation>Érvényesség</translation>
     </message>
     <message>
         <source>Created:</source>
-        <translation></translation>
+        <translation>Létrehozva:</translation>
     </message>
     <message>
         <source>Read &apos;mmHg.csv&apos;</source>
-        <translation></translation>
+        <translation>&apos;mmHg.csv&apos; olvasása</translation>
     </message>
     <message>
         <source>records</source>
-        <translation></translation>
+        <translation>bejegyzések</translation>
     </message>
 </context>
 <context>
@@ -246,7 +249,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Delete all values? Sure?</source>
-        <translation>Az összes érték törlése? Biztos?</translation>
+        <translation>Törli az összes értéket? Biztos?</translation>
     </message>
     <message>
         <source>No</source>
@@ -258,11 +261,11 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Reset all settings? Sure?</source>
-        <translation></translation>
+        <translation>Visszaállítja az összes beállítást? Biztos?</translation>
     </message>
     <message>
         <source>Yes! Reset all settings!</source>
-        <translation></translation>
+        <translation>Igen! Állítsa vissza az összes beállítást!</translation>
     </message>
 </context>
 <context>
@@ -273,7 +276,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Themes</source>
-        <translation></translation>
+        <translation>Témák</translation>
     </message>
 </context>
 <context>
@@ -288,22 +291,22 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Theme</source>
-        <translation></translation>
+        <translation>Téma</translation>
     </message>
 </context>
 <context>
     <name>Themaliste</name>
     <message>
         <source>New theme</source>
-        <translation></translation>
+        <translation>Új téma</translation>
     </message>
     <message>
         <source>themes</source>
-        <translation></translation>
+        <translation>témák</translation>
     </message>
     <message>
         <source>Add your theme.</source>
-        <translation></translation>
+        <translation>Add hozzá a témádat.</translation>
     </message>
     <message>
         <source>Deleting</source>
@@ -311,7 +314,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Select</source>
-        <translation></translation>
+        <translation>Kiválasztás</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -356,50 +359,50 @@ For chart or export you need 2 (or more) values.</source>
     </message>
     <message>
         <source>Export &amp; Import</source>
-        <translation></translation>
+        <translation>Exportálás &amp; Importálás</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation></translation>
+        <translation>Importálás</translation>
     </message>
     <message>
         <source>Graph</source>
-        <translation></translation>
+        <translation>Grafikon</translation>
     </message>
 </context>
 <context>
     <name>Willkommen</name>
     <message>
         <source>Welcome to Ielig:mmhg</source>
-        <translation></translation>
+        <translation>Üdv az Ielig:mmhg alkalmazásban</translation>
     </message>
     <message>
         <source>[First start after update? Please restart this app]</source>
-        <translation></translation>
+        <translation>[Első indítás frissítés után? Kérlek indítsd újra az alkalmazást]</translation>
     </message>
     <message>
         <source>Your first action:</source>
-        <translation></translation>
+        <translation>Az első lépésed:</translation>
     </message>
     <message>
         <source>Config your data fields and the chart..</source>
-        <translation></translation>
+        <translation>Az adatmezők és a táblázat konfigurálása...</translation>
     </message>
     <message>
         <source>Or save your blood pressure values..</source>
-        <translation></translation>
+        <translation>Vagy mentsd el a vérnyomás-értékeidet...</translation>
     </message>
     <message>
         <source>Check your data values..</source>
-        <translation></translation>
+        <translation>Az adat-értékeid ellenőrzése...</translation>
     </message>
     <message>
         <source>Little help..</source>
-        <translation></translation>
+        <translation>Kis segítség...</translation>
     </message>
     <message>
         <source>Show this page not again!</source>
-        <translation></translation>
+        <translation>Ne mutassa többé ezt az oldalt</translation>
     </message>
 </context>
 <context>
@@ -414,7 +417,7 @@ For chart or export you need 2 (or more) values.</source>
     </message>
     <message>
         <source>Pulse</source>
-        <translation></translation>
+        <translation>Pulzus</translation>
     </message>
     <message>
         <source>Comment</source>
