@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv_SE">
+<TS version="2.1" language="sv">
 <context>
     <name>About</name>
     <message>
@@ -40,12 +40,14 @@ Du kan exportera till en CSV-fil. Sökväg och filnamn är hårdkodat till
     <message>
         <source>Ielig: mmHg
 Save your blood pressure values or other data.</source>
-        <translation></translation>
+        <translation>Ielig: mmHg
+Spara dina blodtrycksvärden eller annan data.</translation>
     </message>
     <message>
         <source>Settings
 Relabel the data fields for your needs and set a date of expiry. Or configure the graph.</source>
-        <translation></translation>
+        <translation>Inställningar
+Etikettera om datafälten efter dina behov och ange ett utgångsdatum, eller konfigurera diagrammet.</translation>
     </message>
 </context>
 <context>
@@ -72,7 +74,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Valid until</source>
-        <translation></translation>
+        <translation>Giltigt till</translation>
     </message>
 </context>
 <context>
@@ -107,63 +109,63 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Global settings</source>
-        <translation></translation>
+        <translation>Övergripande inställningar</translation>
     </message>
     <message>
         <source>Field 1 label</source>
-        <translation></translation>
+        <translation>Fält 1 etikett</translation>
     </message>
     <message>
         <source>Field 2 label</source>
-        <translation></translation>
+        <translation>Fält 2 etikett</translation>
     </message>
     <message>
         <source>Field 3 label</source>
-        <translation></translation>
+        <translation>Fält 3 etikett</translation>
     </message>
     <message>
         <source>Field 4 label</source>
-        <translation></translation>
+        <translation>Fält 4 etikett</translation>
     </message>
     <message>
         <source>Graph of value 1+2</source>
-        <translation></translation>
+        <translation>Diagram över värde 1+2</translation>
     </message>
     <message>
         <source>Min. value</source>
-        <translation></translation>
+        <translation>Min. värde</translation>
     </message>
     <message>
         <source>Max. value</source>
-        <translation></translation>
+        <translation>Max. värde</translation>
     </message>
     <message>
         <source>Unit</source>
-        <translation></translation>
+        <translation>Enhet</translation>
     </message>
     <message>
         <source>Database</source>
-        <translation></translation>
+        <translation>Databas</translation>
     </message>
     <message>
         <source>Export private data</source>
-        <translation></translation>
+        <translation>Exportera privat data</translation>
     </message>
     <message>
         <source>Valid for days (0=indefinite)</source>
-        <translation></translation>
+        <translation>Giltig i dagar (0=obestämt)</translation>
     </message>
     <message>
         <source>Reset all settings</source>
-        <translation></translation>
+        <translation>Återställ alla inställningar</translation>
     </message>
     <message>
         <source>Reindex all values</source>
-        <translation></translation>
+        <translation>Indexera om alla värden</translation>
     </message>
     <message>
         <source>Delete all values</source>
-        <translation></translation>
+        <translation>Ta bort alla värden</translation>
     </message>
 </context>
 <context>
@@ -182,7 +184,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Export &amp; Import</source>
-        <translation></translation>
+        <translation>Export &amp; Import</translation>
     </message>
     <message>
         <source>Date</source>
@@ -194,15 +196,15 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Sys</source>
-        <translation></translation>
+        <translation>Sys</translation>
     </message>
     <message>
         <source>Dia</source>
-        <translation></translation>
+        <translation>Dia</translation>
     </message>
     <message>
         <source>Pulse</source>
-        <translation></translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -214,23 +216,23 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Theme</source>
-        <translation></translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <source>Valid to</source>
-        <translation></translation>
+        <translation>Giltigt till</translation>
     </message>
     <message>
         <source>Created:</source>
-        <translation></translation>
+        <translation>Skapad:</translation>
     </message>
     <message>
         <source>Read &apos;mmHg.csv&apos;</source>
-        <translation></translation>
+        <translation>Läs &quot;mmHg.csv&quot;</translation>
     </message>
     <message>
         <source>records</source>
-        <translation></translation>
+        <translation>poster</translation>
     </message>
 </context>
 <context>
@@ -260,11 +262,11 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Reset all settings? Sure?</source>
-        <translation></translation>
+        <translation>Vill du verkligen återställa alla inställningar?</translation>
     </message>
     <message>
         <source>Yes! Reset all settings!</source>
-        <translation></translation>
+        <translation>Ja! Återställ alla inställningar!</translation>
     </message>
 </context>
 <context>
@@ -275,7 +277,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Themes</source>
-        <translation></translation>
+        <translation>Teman</translation>
     </message>
 </context>
 <context>
@@ -290,22 +292,22 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Theme</source>
-        <translation></translation>
+        <translation>Tema</translation>
     </message>
 </context>
 <context>
     <name>Themaliste</name>
     <message>
         <source>New theme</source>
-        <translation></translation>
+        <translation>Nytt tema</translation>
     </message>
     <message>
         <source>themes</source>
-        <translation></translation>
+        <translation>teman</translation>
     </message>
     <message>
         <source>Add your theme.</source>
-        <translation></translation>
+        <translation>Lägg till ditt tema.</translation>
     </message>
     <message>
         <source>Deleting</source>
@@ -313,7 +315,7 @@ Relabel the data fields for your needs and set a date of expiry. Or configure th
     </message>
     <message>
         <source>Select</source>
-        <translation></translation>
+        <translation>Välj</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -358,50 +360,50 @@ För diagram eller export behöver du 2 (eller fler) värden.</translation>
     </message>
     <message>
         <source>Export &amp; Import</source>
-        <translation></translation>
+        <translation>Export &amp; Import</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation></translation>
+        <translation>Import</translation>
     </message>
     <message>
         <source>Graph</source>
-        <translation></translation>
+        <translation>Diagram</translation>
     </message>
 </context>
 <context>
     <name>Willkommen</name>
     <message>
         <source>Welcome to Ielig:mmhg</source>
-        <translation></translation>
+        <translation>Välkommen till Ielig:mmhg</translation>
     </message>
     <message>
         <source>[First start after update? Please restart this app]</source>
-        <translation></translation>
+        <translation>[Första start efter uppdatering? Starta om appen!]</translation>
     </message>
     <message>
         <source>Your first action:</source>
-        <translation></translation>
+        <translation>Din första åtgärd:</translation>
     </message>
     <message>
         <source>Config your data fields and the chart..</source>
-        <translation></translation>
+        <translation>Konfigurera datafälten och diagrammet...</translation>
     </message>
     <message>
         <source>Or save your blood pressure values..</source>
-        <translation></translation>
+        <translation>Eller spara dina blodtrycksvärden...</translation>
     </message>
     <message>
         <source>Check your data values..</source>
-        <translation></translation>
+        <translation>Kontrollera dina datavärden...</translation>
     </message>
     <message>
         <source>Little help..</source>
-        <translation></translation>
+        <translation>Lite hjälp...</translation>
     </message>
     <message>
         <source>Show this page not again!</source>
-        <translation></translation>
+        <translation>Visa inte denna sida igen!</translation>
     </message>
 </context>
 <context>
@@ -416,7 +418,7 @@ För diagram eller export behöver du 2 (eller fler) värden.</translation>
     </message>
     <message>
         <source>Pulse</source>
-        <translation></translation>
+        <translation>Puls</translation>
     </message>
     <message>
         <source>Comment</source>
